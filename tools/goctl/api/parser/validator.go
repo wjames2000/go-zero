@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/tal-tech/go-zero/core/stringx"
-	"github.com/tal-tech/go-zero/tools/goctl/api/spec"
-	"github.com/tal-tech/go-zero/tools/goctl/api/util"
+	"github.com/wjames2000/go-zero/core/stringx"
+	"github.com/wjames2000/go-zero/tools/goctl/api/spec"
+	"github.com/wjames2000/go-zero/tools/goctl/api/util"
 )
 
 func (p *Parser) validate(api *spec.ApiSpec) (err error) {

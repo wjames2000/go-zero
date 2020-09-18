@@ -6,9 +6,9 @@ import (
 
 	"github.com/alicebob/miniredis"
 	"github.com/stretchr/testify/assert"
-	"github.com/tal-tech/go-zero/core/stores/internal"
-	"github.com/tal-tech/go-zero/core/stores/redis"
-	"github.com/tal-tech/go-zero/core/stringx"
+	"github.com/wjames2000/go-zero/core/stores/internal"
+	"github.com/wjames2000/go-zero/core/stores/redis"
+	"github.com/wjames2000/go-zero/core/stringx"
 )
 
 var s1, _ = miniredis.Run()

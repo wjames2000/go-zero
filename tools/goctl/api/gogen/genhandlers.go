@@ -7,10 +7,10 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/tal-tech/go-zero/tools/goctl/api/spec"
-	apiutil "github.com/tal-tech/go-zero/tools/goctl/api/util"
-	"github.com/tal-tech/go-zero/tools/goctl/util"
-	"github.com/tal-tech/go-zero/tools/goctl/vars"
+	"github.com/wjames2000/go-zero/tools/goctl/api/spec"
+	apiutil "github.com/wjames2000/go-zero/tools/goctl/api/util"
+	"github.com/wjames2000/go-zero/tools/goctl/util"
+	"github.com/wjames2000/go-zero/tools/goctl/vars"
 )
 
 const (

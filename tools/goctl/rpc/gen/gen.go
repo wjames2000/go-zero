@@ -1,8 +1,8 @@
 package gen
 
 import (
-	"github.com/tal-tech/go-zero/tools/goctl/rpc/ctx"
-	"github.com/tal-tech/go-zero/tools/goctl/rpc/parser"
+	"github.com/wjames2000/go-zero/tools/goctl/rpc/ctx"
+	"github.com/wjames2000/go-zero/tools/goctl/rpc/parser"
 )
 
 const (

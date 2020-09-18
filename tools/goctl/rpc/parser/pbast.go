@@ -9,11 +9,11 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/tal-tech/go-zero/core/lang"
-	sx "github.com/tal-tech/go-zero/core/stringx"
-	"github.com/tal-tech/go-zero/tools/goctl/util"
-	"github.com/tal-tech/go-zero/tools/goctl/util/console"
-	"github.com/tal-tech/go-zero/tools/goctl/util/stringx"
+	"github.com/wjames2000/go-zero/core/lang"
+	sx "github.com/wjames2000/go-zero/core/stringx"
+	"github.com/wjames2000/go-zero/tools/goctl/util"
+	"github.com/wjames2000/go-zero/tools/goctl/util/console"
+	"github.com/wjames2000/go-zero/tools/goctl/util/stringx"
 )
 
 const (

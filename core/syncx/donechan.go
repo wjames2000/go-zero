@@ -3,7 +3,7 @@ package syncx
 import (
 	"sync"
 
-	"github.com/tal-tech/go-zero/core/lang"
+	"github.com/wjames2000/go-zero/core/lang"
 )
 
 type DoneChan struct {

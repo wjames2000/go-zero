@@ -8,9 +8,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/tal-tech/go-zero/core/conf"
-	"github.com/tal-tech/go-zero/example/tracing/remote/user"
-	"github.com/tal-tech/go-zero/rpcx"
+	"github.com/wjames2000/go-zero/core/conf"
+	"github.com/wjames2000/go-zero/example/tracing/remote/user"
+	"github.com/wjames2000/go-zero/rpcx"
 	"google.golang.org/grpc"
 )
 

@@ -5,10 +5,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/tal-tech/go-zero/tools/goctl/rpc/ctx"
-	"github.com/tal-tech/go-zero/tools/goctl/rpc/gen"
-	"github.com/tal-tech/go-zero/tools/goctl/util"
 	"github.com/urfave/cli"
+	"github.com/wjames2000/go-zero/tools/goctl/rpc/ctx"
+	"github.com/wjames2000/go-zero/tools/goctl/rpc/gen"
+	"github.com/wjames2000/go-zero/tools/goctl/util"
 )
 
 func Rpc(c *cli.Context) error {

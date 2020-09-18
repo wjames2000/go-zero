@@ -4,9 +4,9 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/tal-tech/go-zero/core/logx"
-	"github.com/tal-tech/go-zero/rest/handler"
-	"github.com/tal-tech/go-zero/rest/httpx"
+	"github.com/wjames2000/go-zero/core/logx"
+	"github.com/wjames2000/go-zero/rest/handler"
+	"github.com/wjames2000/go-zero/rest/httpx"
 )
 
 type (

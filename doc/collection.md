@@ -2,7 +2,7 @@
 
 go-zero微服务框架中提供了许多开箱即用的工具，好的工具不仅能提升服务的性能而且还能提升代码的鲁棒性避免出错，实现代码风格的统一方便他人阅读等等，本系列文章将分别介绍go-zero框架中工具的使用及其实现原理  
 
-## 进程内缓存工具[collection.Cache](https://github.com/tal-tech/go-zero/tree/master/core/collection/cache.go)
+## 进程内缓存工具[collection.Cache](https://github.com/wjames2000/go-zero/tree/master/core/collection/cache.go)
 
 在做服务器开发的时候，相信都会遇到使用缓存的情况，go-zero 提供的简单的缓存封装 **collection.Cache**，简单使用方式如下
 
@@ -38,7 +38,7 @@ cache 实现的建的功能包括
 * 缓存击穿
 
 实现原理：
-Cache 自动失效，是采用 TimingWheel(https://github.com/tal-tech/go-zero/blob/master/core/collection/timingwheel.go) 进行管理的
+Cache 自动失效，是采用 TimingWheel(https://github.com/wjames2000/go-zero/blob/master/core/collection/timingwheel.go) 进行管理的
 
 ``` go
 timingWheel, err := NewTimingWheel(time.Second, slots, func(k, v interface{}) {
@@ -79,7 +79,7 @@ Cache 的命中率统计，是在代码中实现 cacheStat,在缓存命中丢失
 cache(proc) - qpm: 2, hit_ratio: 50.0%, elements: 0, hit: 1, miss: 1
 ```
 
-缓存击穿包含是使用 syncx.SharedCalls(https://github.com/tal-tech/go-zero/blob/master/core/syncx/sharedcalls.go) 进行实现的，就是将同时请求同一个 key 的请求, 关于 sharedcalls 后续会继续补充。 相关具体实现是在:
+缓存击穿包含是使用 syncx.SharedCalls(https://github.com/wjames2000/go-zero/blob/master/core/syncx/sharedcalls.go) 进行实现的，就是将同时请求同一个 key 的请求, 关于 sharedcalls 后续会继续补充。 相关具体实现是在:
 
 ```go
 func (c *Cache) Take(key string, fetch func() (interface{}, error)) (interface{}, error) {

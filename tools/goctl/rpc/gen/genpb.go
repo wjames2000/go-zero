@@ -9,10 +9,10 @@ import (
 
 	"github.com/dsymonds/gotoc/parser"
 
-	"github.com/tal-tech/go-zero/core/lang"
-	"github.com/tal-tech/go-zero/tools/goctl/rpc/execx"
-	astParser "github.com/tal-tech/go-zero/tools/goctl/rpc/parser"
-	"github.com/tal-tech/go-zero/tools/goctl/util/stringx"
+	"github.com/wjames2000/go-zero/core/lang"
+	"github.com/wjames2000/go-zero/tools/goctl/rpc/execx"
+	astParser "github.com/wjames2000/go-zero/tools/goctl/rpc/parser"
+	"github.com/wjames2000/go-zero/tools/goctl/util/stringx"
 )
 
 func (g *defaultRpcGenerator) genPb() error {

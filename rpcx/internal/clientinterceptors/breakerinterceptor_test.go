@@ -6,9 +6,9 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/tal-tech/go-zero/core/breaker"
-	"github.com/tal-tech/go-zero/core/stat"
-	rcodes "github.com/tal-tech/go-zero/rpcx/internal/codes"
+	"github.com/wjames2000/go-zero/core/breaker"
+	"github.com/wjames2000/go-zero/core/stat"
+	rcodes "github.com/wjames2000/go-zero/rpcx/internal/codes"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"

@@ -3,9 +3,9 @@ package gen
 import (
 	"strings"
 
-	"github.com/tal-tech/go-zero/tools/goctl/model/sql/parser"
-	"github.com/tal-tech/go-zero/tools/goctl/model/sql/template"
-	"github.com/tal-tech/go-zero/tools/goctl/util"
+	"github.com/wjames2000/go-zero/tools/goctl/model/sql/parser"
+	"github.com/wjames2000/go-zero/tools/goctl/model/sql/template"
+	"github.com/wjames2000/go-zero/tools/goctl/util"
 )
 
 func genFields(fields []parser.Field) (string, error) {

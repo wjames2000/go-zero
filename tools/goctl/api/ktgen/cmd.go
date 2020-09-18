@@ -3,8 +3,8 @@ package ktgen
 import (
 	"errors"
 
-	"github.com/tal-tech/go-zero/tools/goctl/api/parser"
 	"github.com/urfave/cli"
+	"github.com/wjames2000/go-zero/tools/goctl/api/parser"
 )
 
 func KtCommand(c *cli.Context) error {

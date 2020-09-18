@@ -6,12 +6,12 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/tal-tech/go-zero/core/logx"
-	"github.com/tal-tech/go-zero/tools/goctl/util"
-	"github.com/tal-tech/go-zero/tools/goctl/util/console"
-	"github.com/tal-tech/go-zero/tools/goctl/util/project"
-	"github.com/tal-tech/go-zero/tools/goctl/util/stringx"
 	"github.com/urfave/cli"
+	"github.com/wjames2000/go-zero/core/logx"
+	"github.com/wjames2000/go-zero/tools/goctl/util"
+	"github.com/wjames2000/go-zero/tools/goctl/util/console"
+	"github.com/wjames2000/go-zero/tools/goctl/util/project"
+	"github.com/wjames2000/go-zero/tools/goctl/util/stringx"
 )
 
 const (

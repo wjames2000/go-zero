@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/tal-tech/go-zero/core/proc"
+	"github.com/wjames2000/go-zero/core/proc"
 )
 
 func StartHttp(host string, port int, handler http.Handler) error {

@@ -3,7 +3,7 @@ package mapping
 import (
 	"io"
 
-	"github.com/tal-tech/go-zero/core/jsonx"
+	"github.com/wjames2000/go-zero/core/jsonx"
 )
 
 const jsonTagKey = "json"

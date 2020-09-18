@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/tal-tech/go-zero/core/logx"
-	"github.com/tal-tech/go-zero/core/mapping"
+	"github.com/wjames2000/go-zero/core/logx"
+	"github.com/wjames2000/go-zero/core/mapping"
 )
 
 func desensitize(datasource string) string {

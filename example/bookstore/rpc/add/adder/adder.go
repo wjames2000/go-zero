@@ -9,8 +9,8 @@ import (
 	add "bookstore/rpc/add/pb"
 	"context"
 
-	"github.com/tal-tech/go-zero/core/jsonx"
-	"github.com/tal-tech/go-zero/rpcx"
+	"github.com/wjames2000/go-zero/core/jsonx"
+	"github.com/wjames2000/go-zero/rpcx"
 )
 
 type (

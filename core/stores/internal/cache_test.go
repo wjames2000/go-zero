@@ -10,10 +10,10 @@ import (
 
 	"github.com/alicebob/miniredis"
 	"github.com/stretchr/testify/assert"
-	"github.com/tal-tech/go-zero/core/errorx"
-	"github.com/tal-tech/go-zero/core/hash"
-	"github.com/tal-tech/go-zero/core/stores/redis"
-	"github.com/tal-tech/go-zero/core/syncx"
+	"github.com/wjames2000/go-zero/core/errorx"
+	"github.com/wjames2000/go-zero/core/hash"
+	"github.com/wjames2000/go-zero/core/stores/redis"
+	"github.com/wjames2000/go-zero/core/syncx"
 )
 
 type mockedNode struct {

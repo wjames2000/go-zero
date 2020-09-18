@@ -5,7 +5,7 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/tal-tech/go-zero/tools/goctl/util"
+	"github.com/wjames2000/go-zero/tools/goctl/util"
 )
 
 //  target

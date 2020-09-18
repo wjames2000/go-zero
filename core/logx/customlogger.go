@@ -5,7 +5,7 @@ import (
 	"io"
 	"time"
 
-	"github.com/tal-tech/go-zero/core/timex"
+	"github.com/wjames2000/go-zero/core/timex"
 )
 
 const customCallerDepth = 3

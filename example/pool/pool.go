@@ -8,8 +8,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/tal-tech/go-zero/core/lang"
-	"github.com/tal-tech/go-zero/core/syncx"
+	"github.com/wjames2000/go-zero/core/lang"
+	"github.com/wjames2000/go-zero/core/syncx"
 )
 
 func main() {

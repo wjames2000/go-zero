@@ -1,5 +1,5 @@
 package cache
 
-import "github.com/tal-tech/go-zero/core/stores/internal"
+import "github.com/wjames2000/go-zero/core/stores/internal"
 
 type CacheConf = internal.ClusterConf

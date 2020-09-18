@@ -2,10 +2,10 @@
 
 [English](readme-en.md) | 简体中文
 
-[![Go](https://github.com/tal-tech/go-zero/workflows/Go/badge.svg?branch=master)](https://github.com/tal-tech/go-zero/actions)
+[![Go](https://github.com/wjames2000/go-zero/workflows/Go/badge.svg?branch=master)](https://github.com/wjames2000/go-zero/actions)
 [![codecov](https://codecov.io/gh/tal-tech/go-zero/branch/master/graph/badge.svg)](https://codecov.io/gh/tal-tech/go-zero)
-[![Go Report Card](https://goreportcard.com/badge/github.com/tal-tech/go-zero)](https://goreportcard.com/report/github.com/tal-tech/go-zero)
-[![Release](https://img.shields.io/github/v/release/tal-tech/go-zero.svg?style=flat-square)](https://github.com/tal-tech/go-zero)
+[![Go Report Card](https://goreportcard.com/badge/github.com/wjames2000/go-zero)](https://goreportcard.com/report/github.com/wjames2000/go-zero)
+[![Release](https://img.shields.io/github/v/release/tal-tech/go-zero.svg?style=flat-square)](https://github.com/wjames2000/go-zero)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## 0. go-zero介绍
@@ -86,7 +86,7 @@ go-zero是一个集成了各种工程实践的包含web和rpc框架，有如下�
 在项目目录下通过如下命令安装：
 
 ```shell
-go get -u github.com/tal-tech/go-zero
+go get -u github.com/wjames2000/go-zero
 ```
 
 ## 6. Quick Start
@@ -102,7 +102,7 @@ go get -u github.com/tal-tech/go-zero
    `goctl`读作`go control`，不要读成`go C-T-L`。`goctl`的意思是不要被代码控制，而是要去控制它。其中的`go`不是指`golang`。在设计`goctl`之初，我就希望通过`她`来解放我们的双手👈
 
    ```shell
-   GO111MODULE=on GOPROXY=https://goproxy.cn/,direct go get -u github.com/tal-tech/go-zero/tools/goctl
+   GO111MODULE=on GOPROXY=https://goproxy.cn/,direct go get -u github.com/wjames2000/go-zero/tools/goctl
    ```
 
    确保goctl可执行
@@ -131,7 +131,7 @@ go get -u github.com/tal-tech/go-zero
 
       编写业务代码：
 
-      * api文件定义了服务对外暴露的路由，可参考[api规范](https://github.com/tal-tech/go-zero/blob/master/doc/goctl.md)
+      * api文件定义了服务对外暴露的路由，可参考[api规范](https://github.com/wjames2000/go-zero/blob/master/doc/goctl.md)
       * 可以在servicecontext.go里面传递依赖给logic，比如mysql, redis等
       * 在api定义的get/post/put/delete等请求对应的logic里增加业务处理逻辑
 

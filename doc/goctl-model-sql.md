@@ -35,11 +35,11 @@ goctl model 为go-zero下的工具模块中的组件之一，目前支持识别m
     	"strings"
     	"time"
 
-    	"github.com/tal-tech/go-zero/core/stores/cache"
-    	"github.com/tal-tech/go-zero/core/stores/sqlc"
-    	"github.com/tal-tech/go-zero/core/stores/sqlx"
-    	"github.com/tal-tech/go-zero/core/stringx"
-    	"github.com/tal-tech/go-zero/tools/goctl/model/sql/builderx"
+    	"github.com/wjames2000/go-zero/core/stores/cache"
+    	"github.com/wjames2000/go-zero/core/stores/sqlc"
+    	"github.com/wjames2000/go-zero/core/stores/sqlx"
+    	"github.com/wjames2000/go-zero/core/stringx"
+    	"github.com/wjames2000/go-zero/tools/goctl/model/sql/builderx"
     )
 
     var (

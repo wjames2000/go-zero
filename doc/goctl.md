@@ -215,7 +215,7 @@ goctl api dart -api user/user.api -dir ./src
 goctl model mysql -src={filename} -dir={dir} -cache={true|false}
 ```
 
-详情参考[model文档](https://github.com/tal-tech/go-zero/blob/master/tools/goctl/model/sql/README.MD)
+详情参考[model文档](https://github.com/wjames2000/go-zero/blob/master/tools/goctl/model/sql/README.MD)
 
 ## 根据定义好的简单go文件生成mongo代码文件(仅限golang使用)  
 

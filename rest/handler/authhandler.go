@@ -7,8 +7,8 @@ import (
 	"net/http/httputil"
 
 	"github.com/dgrijalva/jwt-go"
-	"github.com/tal-tech/go-zero/core/logx"
-	"github.com/tal-tech/go-zero/rest/token"
+	"github.com/wjames2000/go-zero/core/logx"
+	"github.com/wjames2000/go-zero/rest/token"
 )
 
 const (

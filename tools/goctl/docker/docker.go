@@ -3,8 +3,8 @@ package docker
 import (
 	"errors"
 
-	"github.com/tal-tech/go-zero/tools/goctl/gen"
 	"github.com/urfave/cli"
+	"github.com/wjames2000/go-zero/tools/goctl/gen"
 )
 
 func DockerCommand(c *cli.Context) error {

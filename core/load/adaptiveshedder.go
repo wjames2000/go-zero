@@ -7,11 +7,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/tal-tech/go-zero/core/collection"
-	"github.com/tal-tech/go-zero/core/logx"
-	"github.com/tal-tech/go-zero/core/stat"
-	"github.com/tal-tech/go-zero/core/syncx"
-	"github.com/tal-tech/go-zero/core/timex"
+	"github.com/wjames2000/go-zero/core/collection"
+	"github.com/wjames2000/go-zero/core/logx"
+	"github.com/wjames2000/go-zero/core/stat"
+	"github.com/wjames2000/go-zero/core/syncx"
+	"github.com/wjames2000/go-zero/core/timex"
 )
 
 const (

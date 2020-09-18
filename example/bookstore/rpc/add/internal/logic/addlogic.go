@@ -6,7 +6,7 @@ import (
 	"bookstore/rpc/model"
 	"context"
 
-	"github.com/tal-tech/go-zero/core/logx"
+	"github.com/wjames2000/go-zero/core/logx"
 )
 
 type AddLogic struct {

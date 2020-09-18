@@ -3,7 +3,7 @@ package main
 import (
 	"testing"
 
-	"github.com/tal-tech/go-zero/core/fx"
+	"github.com/wjames2000/go-zero/core/fx"
 )
 
 func BenchmarkFx(b *testing.B) {

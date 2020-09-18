@@ -5,7 +5,7 @@ import (
 	"bookstore/api/internal/svc"
 	"net/http"
 
-	"github.com/tal-tech/go-zero/rest"
+	"github.com/wjames2000/go-zero/rest"
 )
 
 func RegisterHandlers(engine *rest.Server, serverCtx *svc.ServiceContext) {

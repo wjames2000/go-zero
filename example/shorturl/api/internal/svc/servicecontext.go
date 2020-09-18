@@ -4,7 +4,7 @@ import (
 	"shorturl/api/internal/config"
 	"shorturl/rpc/transform/transformer"
 
-	"github.com/tal-tech/go-zero/rpcx"
+	"github.com/wjames2000/go-zero/rpcx"
 )
 
 type ServiceContext struct {

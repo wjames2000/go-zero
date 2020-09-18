@@ -5,9 +5,9 @@ import (
 	"path/filepath"
 	"text/template"
 
-	"github.com/tal-tech/go-zero/tools/goctl/api/gogen"
-	"github.com/tal-tech/go-zero/tools/goctl/util"
 	"github.com/urfave/cli"
+	"github.com/wjames2000/go-zero/tools/goctl/api/gogen"
+	"github.com/wjames2000/go-zero/tools/goctl/util"
 )
 
 const apiTemplate = `

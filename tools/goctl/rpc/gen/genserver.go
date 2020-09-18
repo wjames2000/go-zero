@@ -5,8 +5,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/tal-tech/go-zero/tools/goctl/rpc/parser"
-	"github.com/tal-tech/go-zero/tools/goctl/util"
+	"github.com/wjames2000/go-zero/tools/goctl/rpc/parser"
+	"github.com/wjames2000/go-zero/tools/goctl/util"
 )
 
 const (

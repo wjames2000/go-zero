@@ -5,10 +5,10 @@ import (
 	"fmt"
 
 	"github.com/logrusorgru/aurora"
-	"github.com/tal-tech/go-zero/core/logx"
-	"github.com/tal-tech/go-zero/tools/goctl/api/parser"
-	"github.com/tal-tech/go-zero/tools/goctl/util"
 	"github.com/urfave/cli"
+	"github.com/wjames2000/go-zero/core/logx"
+	"github.com/wjames2000/go-zero/tools/goctl/api/parser"
+	"github.com/wjames2000/go-zero/tools/goctl/util"
 )
 
 func TsCommand(c *cli.Context) error {

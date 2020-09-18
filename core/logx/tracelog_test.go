@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/tal-tech/go-zero/core/trace/tracespec"
+	"github.com/wjames2000/go-zero/core/trace/tracespec"
 )
 
 const (

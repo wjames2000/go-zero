@@ -19,11 +19,11 @@ To build a well working microservice, we need lots of knowledges from different 
   3. logging, collects data and helps to backtrace problems
   4. observability, no metrics, no optimization
 
-For any point listed above, we need a long article to describe the theory and the implementation. But for us, the developers, it’s very difficult to understand all the concepts and make it happen in our systems. Although, we can use the frameworks that have been well served busy sites. [go-zero](https://github.com/tal-tech/go-zero) is born for this purpose, especially for cloud-native microservice systems.
+For any point listed above, we need a long article to describe the theory and the implementation. But for us, the developers, it’s very difficult to understand all the concepts and make it happen in our systems. Although, we can use the frameworks that have been well served busy sites. [go-zero](https://github.com/wjames2000/go-zero) is born for this purpose, especially for cloud-native microservice systems.
 
 As well, we always adhere to the idea that **prefer tools over conventions and documents**. We hope to reduce the boilerplate code as much as possible, and let developers focus on developing the business related code. For this purpose, we developed the tool  `goctl`.
 
-Let’s take the shorturl microservice as a quick example to demonstrate how to quickly create microservices by using [go-zero](https://github.com/tal-tech/go-zero). After finishing this tutorial, you’ll find that it’s so easy to write microservices!
+Let’s take the shorturl microservice as a quick example to demonstrate how to quickly create microservices by using [go-zero](https://github.com/wjames2000/go-zero). After finishing this tutorial, you’ll find that it’s so easy to write microservices!
 
 ## 1. What is a bookstore service
 
@@ -60,7 +60,7 @@ And now, let’s walk through the complete flow of quickly create a microservice
 * install goctl
 
   ```shell
-  GO111MODULE=on go get -u github.com/tal-tech/go-zero/tools/goctl
+  GO111MODULE=on go get -u github.com/wjames2000/go-zero/tools/goctl
   ```
 
 * create the working dir bookstore
@@ -601,7 +601,7 @@ as shown above, in my MacBook Pro, the QPS is like 30K+.
 
 ## 13. Full code
 
-[https://github.com/tal-tech/go-zero/tree/master/example/bookstore](https://github.com/tal-tech/go-zero/tree/master/example/bookstore)
+[https://github.com/wjames2000/go-zero/tree/master/example/bookstore](https://github.com/wjames2000/go-zero/tree/master/example/bookstore)
 
 ## 14. Conclusion
 

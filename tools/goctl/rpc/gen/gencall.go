@@ -7,9 +7,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/tal-tech/go-zero/tools/goctl/rpc/execx"
-	"github.com/tal-tech/go-zero/tools/goctl/rpc/parser"
-	"github.com/tal-tech/go-zero/tools/goctl/util"
+	"github.com/wjames2000/go-zero/tools/goctl/rpc/execx"
+	"github.com/wjames2000/go-zero/tools/goctl/rpc/parser"
+	"github.com/wjames2000/go-zero/tools/goctl/util"
 )
 
 const (
@@ -24,8 +24,8 @@ import (
 
 	{{.package}}
 
-	"github.com/tal-tech/go-zero/core/jsonx"
-	"github.com/tal-tech/go-zero/rpcx"
+	"github.com/wjames2000/go-zero/core/jsonx"
+	"github.com/wjames2000/go-zero/rpcx"
 )
 
 type (

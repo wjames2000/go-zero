@@ -6,11 +6,11 @@ import (
 	"net/http"
 	"path"
 
-	"github.com/tal-tech/go-zero/core/conf"
-	"github.com/tal-tech/go-zero/core/hash"
-	"github.com/tal-tech/go-zero/core/logx"
-	"github.com/tal-tech/go-zero/tools/goctl/update/config"
-	"github.com/tal-tech/go-zero/tools/goctl/util"
+	"github.com/wjames2000/go-zero/core/conf"
+	"github.com/wjames2000/go-zero/core/hash"
+	"github.com/wjames2000/go-zero/core/logx"
+	"github.com/wjames2000/go-zero/tools/goctl/update/config"
+	"github.com/wjames2000/go-zero/tools/goctl/util"
 )
 
 const (

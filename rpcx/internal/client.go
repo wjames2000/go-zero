@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/tal-tech/go-zero/rpcx/internal/balancer/p2c"
-	"github.com/tal-tech/go-zero/rpcx/internal/clientinterceptors"
-	"github.com/tal-tech/go-zero/rpcx/internal/resolver"
+	"github.com/wjames2000/go-zero/rpcx/internal/balancer/p2c"
+	"github.com/wjames2000/go-zero/rpcx/internal/clientinterceptors"
+	"github.com/wjames2000/go-zero/rpcx/internal/resolver"
 	"google.golang.org/grpc"
 )
 

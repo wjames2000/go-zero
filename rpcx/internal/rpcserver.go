@@ -3,9 +3,9 @@ package internal
 import (
 	"net"
 
-	"github.com/tal-tech/go-zero/core/proc"
-	"github.com/tal-tech/go-zero/core/stat"
-	"github.com/tal-tech/go-zero/rpcx/internal/serverinterceptors"
+	"github.com/wjames2000/go-zero/core/proc"
+	"github.com/wjames2000/go-zero/core/stat"
+	"github.com/wjames2000/go-zero/rpcx/internal/serverinterceptors"
 	"google.golang.org/grpc"
 )
 

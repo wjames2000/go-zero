@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/tal-tech/go-zero/core/logx"
-	"github.com/tal-tech/go-zero/tools/goctl/api/parser"
+	"github.com/wjames2000/go-zero/core/logx"
+	"github.com/wjames2000/go-zero/tools/goctl/api/parser"
 )
 
 func main() {

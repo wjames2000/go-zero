@@ -1,8 +1,8 @@
 package config
 
 import (
-	"github.com/tal-tech/go-zero/rest"
-	"github.com/tal-tech/go-zero/rpcx"
+	"github.com/wjames2000/go-zero/rest"
+	"github.com/wjames2000/go-zero/rpcx"
 )
 
 type Config struct {

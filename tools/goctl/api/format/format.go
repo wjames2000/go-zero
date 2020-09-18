@@ -11,10 +11,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/tal-tech/go-zero/core/errorx"
-	"github.com/tal-tech/go-zero/tools/goctl/api/parser"
-	"github.com/tal-tech/go-zero/tools/goctl/api/util"
 	"github.com/urfave/cli"
+	"github.com/wjames2000/go-zero/core/errorx"
+	"github.com/wjames2000/go-zero/tools/goctl/api/parser"
+	"github.com/wjames2000/go-zero/tools/goctl/api/util"
 )
 
 var (

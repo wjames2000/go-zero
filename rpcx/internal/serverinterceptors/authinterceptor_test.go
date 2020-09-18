@@ -6,8 +6,8 @@ import (
 
 	"github.com/alicebob/miniredis"
 	"github.com/stretchr/testify/assert"
-	"github.com/tal-tech/go-zero/core/stores/redis"
-	"github.com/tal-tech/go-zero/rpcx/internal/auth"
+	"github.com/wjames2000/go-zero/core/stores/redis"
+	"github.com/wjames2000/go-zero/rpcx/internal/auth"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"
 )

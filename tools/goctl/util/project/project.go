@@ -8,7 +8,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/tal-tech/go-zero/tools/goctl/rpc/execx"
+	"github.com/wjames2000/go-zero/tools/goctl/rpc/execx"
 )
 
 const (

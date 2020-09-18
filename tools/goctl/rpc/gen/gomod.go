@@ -3,8 +3,8 @@ package gen
 import (
 	"fmt"
 
-	"github.com/tal-tech/go-zero/core/logx"
-	"github.com/tal-tech/go-zero/tools/goctl/rpc/execx"
+	"github.com/wjames2000/go-zero/core/logx"
+	"github.com/wjames2000/go-zero/tools/goctl/rpc/execx"
 )
 
 func (g *defaultRpcGenerator) initGoMod() error {

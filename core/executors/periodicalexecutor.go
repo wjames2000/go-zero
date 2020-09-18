@@ -5,11 +5,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/tal-tech/go-zero/core/lang"
-	"github.com/tal-tech/go-zero/core/proc"
-	"github.com/tal-tech/go-zero/core/syncx"
-	"github.com/tal-tech/go-zero/core/threading"
-	"github.com/tal-tech/go-zero/core/timex"
+	"github.com/wjames2000/go-zero/core/lang"
+	"github.com/wjames2000/go-zero/core/proc"
+	"github.com/wjames2000/go-zero/core/syncx"
+	"github.com/wjames2000/go-zero/core/threading"
+	"github.com/wjames2000/go-zero/core/timex"
 )
 
 const idleRound = 10
