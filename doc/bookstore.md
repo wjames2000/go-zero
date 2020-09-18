@@ -33,23 +33,20 @@
 
 ## 2. 书店微服务架构图
 
-<img src="images/bookstore-arch.png" alt="架构图" width="800" />
+![架构图](./images/bookstore-arch.png)
 
 ## 3. goctl各层代码生成一览
 
 所有绿色背景的功能模块是自动生成的，按需激活，红色模块是需要自己写的，也就是增加下依赖，编写业务特有逻辑，各层示意图分别如下：
 
 * API Gateway
-
-  <img src="images/bookstore-api.png" alt="api" width="800" />
+![API网关架构](./images/bookstore-api.png)
 
 * RPC
-
-  <img src="images/bookstore-rpc.png" alt="架构图" width="800" />
+![RPC架构图](./images/bookstore-rpc.png)
 
 * model
-
-  <img src="images/bookstore-model.png" alt="model" width="800" />
+![model](./images/bookstore-model.png)
 
 下面我们来一起完整走一遍快速构建微服务的流程，Let’s `Go`!🏃‍♂️
 
